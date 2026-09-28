@@ -40,3 +40,9 @@ Each submission is stored in PostgreSQL and handed to a background worker throug
 Redis queue. The worker compiles and runs the code inside the `safeexec` sandbox,
 compares the output with the expected answer using the checkers in `testlib`, and
 writes the verdict back to the database.
+
+---
+
+<div align="center">
+  <em>En honor a Ali Landeiro Gongora.</em>
+</div>
